@@ -16,6 +16,8 @@
     "jscs": "^3.0.7",
     "jshint-globals": "^0.1.0",
     "morgan": "~1.9.0",
+    "msnodesqlv8": "^0.4.9",
+    "mssql": "^4.1.0",
     "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
