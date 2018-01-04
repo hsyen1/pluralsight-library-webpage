@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b49776da-9c4c-4d47-a00f-5bc54f8ba0e0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/routes/authRoutes.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/src/routes/bookRoutes.js" afterPath="$PROJECT_DIR$/src/routes/bookRoutes.js" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" afterPath="$PROJECT_DIR$/src/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +22,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="0">
               <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
@@ -36,7 +32,7 @@
       <file leaf-file-name="bookRoutes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/bookRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="-374">
               <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding>
                 <element signature="e#143#999#0" expanded="false" />
@@ -147,7 +143,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+    <option name="x" value="670" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -290,7 +286,7 @@
       <workItem from="1514655823776" duration="48000" />
       <workItem from="1514740805959" duration="1556000" />
       <workItem from="1514793963849" duration="17365000" />
-      <workItem from="1515047114923" duration="9483000" />
+      <workItem from="1515047114923" duration="10973000" />
     </task>
     <task id="LOCAL-00001" summary="N/A">
       <created>1514963627984</created>
@@ -320,11 +316,46 @@
       <option name="project" value="LOCAL" />
       <updated>1515058171468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New packages added (cookie-parser, passport, express-session)">
+      <created>1515058199150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515058199150</updated>
+    </task>
+    <task id="LOCAL-00006" summary="-Sign up, sign in form created&#10;&#10;-submit button added">
+      <created>1515058279615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515058279617</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new routing js file for authentication/signing up">
+      <created>1515058380038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515058380038</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-connect to sql server&#10;-query from database&#10;-render the books queried from database">
+      <created>1515058470371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515058470371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="-parse the data to json format after &quot;post&quot; action is done&#10;-set up the route for authentication">
+      <created>1515058671455</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1515058671455</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91018000" />
+    <option name="totallyTimeSpent" value="92508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +367,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="670" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.323217" sideWeight="0.49122807" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,7 +450,11 @@
     <MESSAGE value="added the route for &quot;Read More&quot; in the book list" />
     <MESSAGE value="installed new packages" />
     <MESSAGE value="New packages added (cookie-parser, passport, express-session)" />
-    <option name="LAST_COMMIT_MESSAGE" value="New packages added (cookie-parser, passport, express-session)" />
+    <MESSAGE value="-Sign up, sign in form created&#10;&#10;-submit button added" />
+    <MESSAGE value="new routing js file for authentication/signing up" />
+    <MESSAGE value="-connect to sql server&#10;-query from database&#10;-render the books queried from database" />
+    <MESSAGE value="-parse the data to json format after &quot;post&quot; action is done&#10;-set up the route for authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="-parse the data to json format after &quot;post&quot; action is done&#10;-set up the route for authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,17 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#240#407#0" expanded="false" />
-            <element signature="e#1232#1504#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -794,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/bookRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="-374">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding>
             <element signature="e#143#999#0" expanded="false" />
@@ -802,9 +826,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#240#407#0" expanded="false" />
+            <element signature="e#1232#1504#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="0">
           <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
