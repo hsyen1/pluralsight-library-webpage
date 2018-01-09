@@ -3,38 +3,15 @@ var bookRouter = express.Router();
 var sql = require('mssql');
 
 var router = function(nav) {
-    var books = [
-        {
-            title: 'War and Peace',
-            genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
-            read: false
-        },
-        {
-            title: 'War and Peace',
-            genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
-            read: false
-        },
-        {
-            title: 'War and Peace',
-            genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
-            read: false
-        },
-        {
-            title: 'War and Peace',
-            genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
-            read: false
-        },
-        {
-            title: 'War and Peace',
-            genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
-            read: false
+
+    //if the user is not signed in, user cant access to books
+    bookRouter.use(function(req, res, next) {
+        if (!req.user) {
+            res.redirect('/');
         }
-    ];
+        next();
+    });
+
     //this routes to the nav bar
     //Link: sent to the ejs file to make it click-able by adding it to the href
     //Text: the text of the nav bar
